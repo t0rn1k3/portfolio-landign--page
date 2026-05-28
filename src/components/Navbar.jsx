@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
+import { profile } from '../data/profile';
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -29,7 +30,7 @@ export default function Navbar() {
           className="font-display text-lg font-semibold tracking-tight text-stone-900 dark:text-stone-100 sm:text-xl"
           onClick={() => setOpen(false)}
         >
-          Elena Vasquez
+          {profile.name}
         </Link>
 
         <div className="flex items-center gap-2 md:gap-4">

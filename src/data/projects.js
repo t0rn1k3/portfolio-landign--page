@@ -1,0 +1,88 @@
+export const categories = ['All', 'Portrait', 'Landscape', 'Street', 'Wedding'];
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Golden Hour Portrait',
+    category: 'Portrait',
+    src: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&q=80&auto=format&fit=crop',
+    aspect: 'tall',
+  },
+  {
+    id: 2,
+    title: 'Alpine Dawn',
+    category: 'Landscape',
+    src: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop',
+    aspect: 'wide',
+  },
+  {
+    id: 3,
+    title: 'City Crosswalk',
+    category: 'Street',
+    src: 'https://images.unsplash.com/photo-1445991842252-303f838bca25?w=800&q=80&auto=format&fit=crop',
+    aspect: 'square',
+  },
+  {
+    id: 4,
+    title: 'Garden Vows',
+    category: 'Wedding',
+    src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80&auto=format&fit=crop',
+    aspect: 'wide',
+  },
+  {
+    id: 5,
+    title: 'Studio Silhouette',
+    category: 'Portrait',
+    src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format&fit=crop',
+    aspect: 'square',
+  },
+  {
+    id: 6,
+    title: 'Coastal Mist',
+    category: 'Landscape',
+    src: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop',
+    aspect: 'tall',
+  },
+  {
+    id: 7,
+    title: 'Night Market',
+    category: 'Street',
+    src: 'https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&q=80&auto=format&fit=crop',
+    aspect: 'wide',
+  },
+  {
+    id: 8,
+    title: 'First Dance',
+    category: 'Wedding',
+    src: 'https://images.unsplash.com/photo-1465495976277-aa7e8c653f03?w=800&q=80&auto=format&fit=crop',
+    aspect: 'tall',
+  },
+  {
+    id: 9,
+    title: 'Editorial Gaze',
+    category: 'Portrait',
+    src: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&q=80&auto=format&fit=crop',
+    aspect: 'tall',
+  },
+  {
+    id: 10,
+    title: 'Desert Highway',
+    category: 'Landscape',
+    src: 'https://images.unsplash.com/photo-1506197508160-1f9b0e7e0b8b?w=800&q=80&auto=format&fit=crop',
+    aspect: 'wide',
+  },
+  {
+    id: 11,
+    title: 'Rainy Commute',
+    category: 'Street',
+    src: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&q=80&auto=format&fit=crop',
+    aspect: 'square',
+  },
+  {
+    id: 12,
+    title: 'Ring Detail',
+    category: 'Wedding',
+    src: 'https://images.unsplash.com/photo-1522673607200-23d1d9376b9d?w=800&q=80&auto=format&fit=crop',
+    aspect: 'square',
+  },
+];
