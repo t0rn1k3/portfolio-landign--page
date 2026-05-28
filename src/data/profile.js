@@ -1,5 +1,3 @@
-import { Instagram, Mail, Linkedin } from 'lucide-react';
-
 export const profile = {
   name: 'Elena Vasquez',
   tagline: 'Capturing light, emotion, and the in-between.',
@@ -42,14 +40,14 @@ export const profile = {
     },
   ],
   socialLinks: [
-    { label: 'Instagram', href: 'https://instagram.com', icon: Instagram },
-    { label: 'Behance', href: 'https://behance.net', icon: null, text: 'Be' },
-    { label: 'X', href: 'https://x.com', icon: null, text: 'X' },
-    { label: 'LinkedIn', href: 'https://linkedin.com', icon: Linkedin },
+    { label: 'Instagram', href: 'https://instagram.com', text: 'Ig' },
+    { label: 'Behance', href: 'https://behance.net', text: 'Be' },
+    { label: 'X', href: 'https://x.com', text: 'X' },
+    { label: 'LinkedIn', href: 'https://linkedin.com', text: 'in' },
     {
       label: 'Email',
       href: 'mailto:hello@elenavasquez.photo',
-      icon: Mail,
+      text: '@',
     },
   ],
 };
