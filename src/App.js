@@ -1,10 +1,21 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from './context/ThemeContext';
+import Layout from './components/Layout';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <p className="font-display text-2xl text-stone-600 dark:text-stone-400">
-        Portfolio loading…
-      </p>
-    </div>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
